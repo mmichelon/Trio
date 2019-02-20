@@ -15,7 +15,6 @@ int main()
   sortDescending(numA, numB, numC);
 
   cout<<"From greatest to least, they are: ";
-  // cout<<numA<<","<<numB<<","<<numC<<endl;
   cout<<numC<<","<<numB<<","<<numA<<endl;
   return 0;
 }
