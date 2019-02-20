@@ -13,9 +13,10 @@ int main()
   cin>>numA>>numB>>numC;
 
   sortDescending(numA, numB, numC);
-  
+
   cout<<"From greatest to least, they are: ";
-  cout<<numA<<","<<numB<<","<<numC<<endl;
+  // cout<<numA<<","<<numB<<","<<numC<<endl;
+  cout<<numC<<","<<numB<<","<<numA<<endl;
   return 0;
 }
 
